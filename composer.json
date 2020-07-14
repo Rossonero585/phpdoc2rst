@@ -34,7 +34,6 @@
     "autoload-dev": {
         "psr-4": { "input\\": "./Resources/test/input" }
     },
-    "target-dir" : "Patgod85/Phpdoc2rst",
     "require-dev": {
         "mockery/mockery": "0.9.4",
         "phpunit/phpunit": "^6"

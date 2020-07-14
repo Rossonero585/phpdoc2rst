@@ -11,12 +11,17 @@
     processIsolation            = "false"
     stopOnFailure               = "true"
     syntaxCheck                 = "false"
-    bootstrap                   = "Tests/bootstrap.php"
+    bootstrap                   = "vendor/autoload.php"
     verbose                     = "false">
 
     <php>
         <env name="BOOTSTRAP_CLEAR_CACHE_ENV" value="test"/>
     </php>
 
+    <testsuites>
+        <testsuite name="Main suite">
+            <directory>Tests</directory>
+        </testsuite>
+    </testsuites>
 
 </phpunit>

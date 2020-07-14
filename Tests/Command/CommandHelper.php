@@ -26,7 +26,7 @@ class CommandHelper extends TestCase
         new HttpMethod();
         new Result();
         new Groups();
-        new VirtualProperty();
+        new VirtualProperty(['name' => 'value']);
         new SerializedName(['value' => 'initialization']);
 
         $Directory = new \RecursiveDirectoryIterator($this->getOutputPath());
